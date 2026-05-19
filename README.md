@@ -51,3 +51,4 @@ python -u main-call.py -list url.txt -proxy http://127.0.0.1:8080 -c 30 -scope w
 2. 扫描操作请遵守相关法律法规，仅对自身拥有权限的目标进行扫描，严禁用于未授权的恶意扫描。
 3. 老版本Python（低于3.2）需手动安装 concurrent.futures，新版本Python自带该模块，可跳过安装。
 4. http://或https://开头的URL地址都可以使用，但请勿使用ftp://或file://开头和后面带路径的URL地址。
+5. 此项目原本由三大功能组成，目前只实现了其中一大功能。
